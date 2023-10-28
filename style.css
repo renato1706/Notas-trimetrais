@@ -1,0 +1,42 @@
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid rgb(46, 44, 102);
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    color: rgb(35, 3, 108);
+}
+
+th {
+    background-color: #eaed39;
+}
+
+.nota {
+    width: 80px;
+    text-align: center;
+}
+
+.media {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(35, 3, 108);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(35, 3, 108);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e778ef;
+    margin: 0;
+    padding: 20px;
+}
