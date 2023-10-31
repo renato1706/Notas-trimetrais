@@ -1,5 +1,6 @@
 const notas = document.querySelectorAll(".nota");
 const medias = document.querySelectorAll(".media");
+const situacao = document.querySelectorAll(".situacao")
 
 
 for (let n = 0; n < notas.length; n++) {
@@ -13,5 +14,12 @@ function calcularMedia() {
         const media = (nota1 + nota2 + nota3) / 3;
 
         medias[n / 3].textContent = media.toFixed(2);
+
+        if (media >= 6){
+            situacao[n/3].textContent = "Aprovado";
+        } else {
+            situacao[n/3].textContent = "Reprovado";
+        }
     }
 }
+
