@@ -17,8 +17,10 @@ function calcularMedia() {
 
         if (media >= 6){
             situacao[n/3].textContent = "Aprovado";
+            situacao[n/3].style.color= "green"
         } else {
             situacao[n/3].textContent = "Reprovado";
+            situacao[n/3].style.color = "red"
         }
     }
 }
