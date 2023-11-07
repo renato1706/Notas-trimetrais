@@ -45,3 +45,20 @@ img {
     width: 100%;
     height: 30%;
 }
+
+.informacao {
+color: rgb(35, 3, 108);
+width: 100px;
+}
+
+.escola {
+    width: 500px;
+}
+
+.materia{
+    
+}
+
+.professor {
+    width: 500px;
+}
