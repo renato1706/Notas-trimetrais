@@ -38,7 +38,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f38cdc;
     margin: 0;
-    padding: 20px;
 }
 
 img {
@@ -48,17 +47,27 @@ img {
 
 .informacao {
 color: rgb(35, 3, 108);
-width: 100px;
+width: 1000px;
+display: flex;
+justify-content: space-between;
+margin-bottom: 18px;
+margin-left: 300px;
+margin-right: 100px;
+}
+
+input {
+    margin-right: 20px; /* não funcionou */
 }
 
 .escola {
-    width: 500px;
-}
-
-.materia{
-    
+    width: 1500px;
+    /* margin-right: 20px; não funcionou*/
 }
 
 .professor {
-    width: 500px;
+    width: 900px;
+    }
+
+.materia{
+width: 200px;
 }
