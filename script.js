@@ -13,6 +13,8 @@ function calcularMedia() {
         const nota3 = parseFloat(notas[n + 2].value) || 0;
         const media = (nota1 + nota2 + nota3) / 3;
 
+        if (!media) continue;
+
         medias[n / 3].textContent = media.toFixed(2);
 
         if (media >= 6){
@@ -26,4 +28,3 @@ function calcularMedia() {
         }
     }
 }
-
