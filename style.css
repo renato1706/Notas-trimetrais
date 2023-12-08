@@ -71,3 +71,14 @@ input {
 .materia{
 width: 200px;
 }
+
+button {
+    color: rgb(58, 24, 225);
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
